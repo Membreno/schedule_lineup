@@ -47,6 +47,7 @@
             <h2 class="text-center d-lg-none">-or-</h2>
             <h2 class="register d-lg-none text-center text-warning">register</h2>
             <form:form class="register d-lg-none" action='/register' method="POST" modelAttribute="employee">
+            	<form:hidden path="accessLevel" value="1"/>
                 <div class="form-group">
                     <form:label path="firstName">First Name</form:label>
                     <form:input type="text" path="firstName" class="form-control col-10 shadow"/>
