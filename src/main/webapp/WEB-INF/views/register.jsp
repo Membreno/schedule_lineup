@@ -50,23 +50,23 @@
             	<form:hidden path="accessLevel" value="1"/>
                 <div class="form-group">
                     <form:label path="firstName">First Name</form:label>
-                    <form:input type="text" path="firstName" class="form-control col-10 shadow"/>
+                    <form:input type="text" path="firstName" class="form-control shadow"/>
                 </div>
                 <div class="form-group">
                     <form:label path="lastName">Last Name</form:label>
-                    <form:input type="text" path="lastName" class="form-control col-10 shadow"/>
+                    <form:input type="text" path="lastName" class="form-control shadow"/>
                 </div>
                 <div class="form-group">
                     <form:label path="email">Email</form:label>
-                    <form:input type="text" path="email" class="form-control col-10 shadow"/>
+                    <form:input type="text" path="email" class="form-control shadow"/>
                 </div>
                 <div class="form-group">
                     <form:label path="password">Password</form:label>
-                    <form:input type="password" path="password" class="form-control col-10 shadow"/>
+                    <form:input type="password" path="password" class="form-control shadow"/>
                 </div>
                 <div class="form-group">
                     <form:label path="passwordConfirmation">Confirm Password</form:label>
-                    <form:input type="password" path="passwordConfirmation" class="form-control col-10 shadow"/>
+                    <form:input type="password" path="passwordConfirmation" class="form-control shadow"/>
                 </div>
                 <input type="submit" value="Register" class="btn btn-outline-info shadow font-weight-bold">
             </form:form>
@@ -77,23 +77,23 @@
             <h2 class="text-warning">register</h2>
             <div class="form-group">
                 <form:label path="firstName">First Name <br><form:errors path="firstName" class="text-danger"/></form:label>
-                <form:input type="text" path="firstName" class="form-control col-10 shadow"/>
+                <form:input type="text" path="firstName" class="form-control shadow"/>
             </div>
             <div class="form-group">
                 <form:label path="lastName">Last Name <br><form:errors path="lastName" class="text-danger"/></form:label>
-                <form:input type="text" path="lastName" class="form-control col-10 shadow"/>
+                <form:input type="text" path="lastName" class="form-control shadow"/>
             </div>
             <div class="form-group">
                 <form:label path="email">Email <br><form:errors path="email" class="text-danger"/></form:label>
-                <form:input type="text" path="email" class="form-control col-10 shadow"/>
+                <form:input type="text" path="email" class="form-control shadow"/>
             </div>
             <div class="form-group">
                 <form:label path="password">Password <br><form:errors path="password" class="text-danger"/></form:label>
-                <form:input type="password" path="password" class="form-control col-10 shadow"/>
+                <form:input type="password" path="password" class="form-control shadow"/>
             </div>
             <div class="form-group">
                 <form:label path="passwordConfirmation">Confirm Password <br><form:errors path="passwordConfirmation" class="text-danger"/></form:label>
-                <form:input type="password" path="passwordConfirmation" class="form-control col-10 shadow"/>
+                <form:input type="password" path="passwordConfirmation" class="form-control shadow"/>
             </div>
             <input type="submit" value="Register" class="btn btn-outline-info shadow font-weight-bold">
         </form:form>
