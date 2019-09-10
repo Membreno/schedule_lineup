@@ -176,9 +176,9 @@
 
   <section class="bottom_info">
     <div class="row">
-      <div class="col-5 container mt-2">
-        <h2>Time Off Requests</h2>
-        <table class="table table-striped table-bordered">
+      <div class="container table-responsive">
+        <h3 class="text-center">Time Off Requests</h3>
+        <table class="table table-striped table-bordered text-center">
         	<thead>
         	<tr>
 	        	<th>From</th>
